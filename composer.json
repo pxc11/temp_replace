@@ -1,24 +1,23 @@
 {
-    "name": "pcj/temp_replace",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "pengchao",
-            "email": "1184558669@qq.com"
-        }
-    ],
-    "require": {
-        "symfony/filesystem": "^5.3",
-        "symfony/finder": "^5.3"
-    },
- "autoload": {
-        "files": [
-
-        ],
-        "psr-4": {
-            "pcj\\": "pcj"
-        }
-      
+  "name": "pcj/temp_replace",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pengchao",
+      "email": "1184558669@qq.com"
     }
+  ],
+  "require": {
+    "symfony/filesystem": "^5.3",
+    "symfony/finder": "^5.3"
+  },
+  "autoload": {
+    "files": [
+    ],
+    "psr-4": {
+      "pcj\\": "pcj"
+    }
+  },
+  "minimum-stability": "dev"
 }
