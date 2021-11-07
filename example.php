@@ -1,4 +1,5 @@
 <?php
+
 include("vendor/autoload.php");
 $test = new \pc\temp_replace\TempReplace();//单文件内容替换
 $test->setOriginalFile("xxx.txt")//设置原文件(路径)
