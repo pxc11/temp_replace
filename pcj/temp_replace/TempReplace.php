@@ -6,10 +6,10 @@
  * Time: 23:17
  */
 
-namespace pc\temp_replace;
+namespace pcj\temp_replace;
 
 
-use pc\temp_replace\Exception\TempReplaceException;
+use pcj\temp_replace\Exception\TempReplaceException;
 use Symfony\Component\Filesystem\Filesystem;
 
 class TempReplace

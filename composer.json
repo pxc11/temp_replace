@@ -1,5 +1,5 @@
 {
-    "name": "pc/temp_replace",
+    "name": "pcj/temp_replace",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
 
         ],
         "psr-4": {
-            "pc\\": "pc"
+            "pcj\\": "pcj"
         }
       
     }

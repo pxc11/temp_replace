@@ -1,6 +1,6 @@
 <?php
 include("vendor/autoload.php");
-$test = new \pc\temp_replace\TempReplace();//单文件内容替换
+$test = new \pcj\temp_replace\TempReplace();//单文件内容替换
 $test->setOriginalFile("xxx.txt")//设置原文件(路径)
 ->setNewFileName("aaa.txt")//设置新文件(路径)可不设置，不设置直接更改原文件
 ->setStringReplaceMap([
@@ -9,7 +9,7 @@ $test->setOriginalFile("xxx.txt")//设置原文件(路径)
 ])//设置替换内容
 ->generate();//生成  效果是生成aaa.txt，文件内容“aaa”替换为"bbb"
 
-$test = new \pc\temp_replace\BatchTempReplace();//多文件替换 还可文件目录名替换
+$test = new \pcj\temp_replace\BatchTempReplace();//多文件替换 还可文件目录名替换
 $test->setOriginalDir("test") //设置原目录
 ->setNewDirName("test1") //设置生成目录 可不设置
 ->setPath([
